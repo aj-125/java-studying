@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Wallet</title>
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        
+        .page-container {
+            display: flex; 
+            width: 85%;
+            max-width: 1200px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .wallet-info {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-inline-end: 40px; 
+            border-inline-end: 2px solid #eee; 
+        }
+
+        .wallet-title {
+            font-size: 5rem; 
+            font-weight: 800;
+            color: #3b5998; 
+            letter-spacing: 5px;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-text {
+            font-size: 1.2rem;
+            color: #777;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        
+        
+        .buttons-section {
+            flex: 2; 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px; 
+            padding-inline-start: 40px;
+        }
+
+        
+        .square-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+            transition: box-shadow 0.3s, transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .square-item:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px);
+        }
+
+        
+        .small-paragraph {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+       
+        .action-button {
+            display: block;
+            width: 90%;
+            padding: 10px 15px;
+            background-color: #5cb85c; 
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: auto; 
+        }
+
+        .action-button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <div class="wallet-info">
+            <h1 class="wallet-title">WALLET</h1>
+        </div>
+
+        <div class="buttons-section">
+            
+            <div class="square-item">
+                <p class="small-paragraph">See what did you buy :</p>
+                <a href="" class="action-button">Purchase </a>
+            </div>
+
+            <div class="square-item">
+                <p class="small-paragraph">How much money have you earned :</p>
+                <a href="" class="action-button">Income </a>
+            </div>
+
+            <div class="square-item">
+                <p class="small-paragraph">The history of your financial transactions</p>
+                <a href="" class="action-button">History </a>
+            </div>
+
+            <div class="square-item">
+                <p class="small-paragraph">Your current balance </p>
+                <a href="" class="action-button">Balance </a>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
