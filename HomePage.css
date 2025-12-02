@@ -1,0 +1,38 @@
+.box{
+     display: flex;
+     background-color: rgb(44, 44, 137);
+}
+.box div{
+    background-color: silver;
+    border-color: black;
+    margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+    
+}
+
+.footer{
+            background-color: #443eb7; 
+            text-align: center;
+            color: black;
+            border: none;
+            padding:3px;
+            width: 100%;
+             margin-top: auto;
+
+
+        }
+
+.header
+{
+     display: flex;
+    background-color: green;
+    border: px1 , black;
+    
+}
+.header div
+{
+       color: black;
+        padding:3px;
+        width: 100%;
+}
